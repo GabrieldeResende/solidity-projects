@@ -1,0 +1,143 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "title",
+								"type": "string"
+							},
+							{
+								"internalType": "uint16",
+								"name": "year",
+								"type": "uint16"
+							}
+						],
+						"internalType": "struct CRUDBookstore.Book",
+						"name": "newBook",
+						"type": "tuple"
+					}
+				],
+				"name": "addBook",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint32",
+						"name": "",
+						"type": "uint32"
+					}
+				],
+				"name": "books",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "title",
+						"type": "string"
+					},
+					{
+						"internalType": "uint16",
+						"name": "year",
+						"type": "uint16"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint32",
+						"name": "id",
+						"type": "uint32"
+					},
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "title",
+								"type": "string"
+							},
+							{
+								"internalType": "uint16",
+								"name": "year",
+								"type": "uint16"
+							}
+						],
+						"internalType": "struct CRUDBookstore.Book",
+						"name": "newBook",
+						"type": "tuple"
+					}
+				],
+				"name": "editBook",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint32",
+						"name": "id",
+						"type": "uint32"
+					}
+				],
+				"name": "removeBook",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity/CRUDBookstore.sol": "CRUDBookstore"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity/CRUDBookstore.sol": {
+			"keccak256": "0x87adfd195117f146b6e82058429afb56b9c0d93c6dcc60ece6f3edaf83324312",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d48c33720cbef6b2b67c93bcc6b3cfa3b3884dc62526810e5f87d66f81374489",
+				"dweb:/ipfs/Qme9aGNm9j3tFuDv3cyHVn1iqQPvZLb6uPWbXAfZ1qZzp7"
+			]
+		}
+	},
+	"version": 1
+}
